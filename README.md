@@ -17,7 +17,6 @@ The apartment analyzed is in the following figure and contains 2 rooms, which ar
 <img src="apartment.png">\
 
 *Figure 1. Apartment analyzed*
-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Boundary conditions
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -28,7 +27,6 @@ Boundary conditions
 - This apartment is thermally isolated so there is no heat transfer through the floor or ceiling
 - The indoor air’s temperature is homogenous
 - The heat transfer is linear
-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Choosing of materials
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -38,7 +36,6 @@ Choosing of materials
 *Figure 3. External wall material*
 - Internal wall\
 *Figure 4. Internal wall material*
-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Thermal model
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -64,7 +61,6 @@ From these values, the thermal conductances and capacities can be calculated.
 | Thermal conductance, radiation | $Grad=\frac{1}{Rrad}=h \cdot S$ where $h \cdot r=\sigma \cdot \epsilon \cdot(Ts-Te) \cdot(Ts^2+T2^2)$ |
 | Thermal conductance, advection | $Gadv= \rho \cdot c \frac{dV}{dt}$ |
 | Thermal capacity | $C=c\cdot w \cdot S \cdot \rho$ |
-
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Matrices and inputs for the DAE model
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
