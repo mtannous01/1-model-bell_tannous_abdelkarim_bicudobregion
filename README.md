@@ -60,7 +60,7 @@ From these values, the thermal conductances and capacities can be calculated.
 
 |Quantity |Equation|
 | ----- | ----- | 
-| Thermal conductance, conduction | Gcond = \frac{1}{Rcond} = \frac{lambda*S}{w} |
+| Thermal conductance, conduction | Gcond = \frac {1}{Rcond} = \frac {lambda*S}{w} |
 | Thermal conductance, convection | $conv=1/Rconv=hS |
 | Thermal conductance, radiation | $Grad=1/Rrad=hS where hr=sigma x epsilon (Ts-Te)(Ts^2+T2^2) |
 | Thermal conductance, advection | $Gadv=rho*c*dv/dt |
