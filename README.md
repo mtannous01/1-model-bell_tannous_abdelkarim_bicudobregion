@@ -3,17 +3,18 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Dynamic Models for Building Energy Management
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Group members: 1- Tannous Maroun/
-               2- Bell Emily/
-               3- Bicudo Bregion Beatriz/
-               4- Abdelkarim Aya
+Group members: 
+1.Tannous Maroun/
+2. Bell Emily/
+3. Bicudo Bregion Beatriz/
+4. Abdelkarim Aya
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 MODEL
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Apartament sizing
+*Apartament sizing*
 
 
-Boundary conditions
+*Boundary conditions*
 
 - The thermal capacity of the windows, the convective heat transfer through the windows, as well as any radiant heat exchange between the walls themselves and between the windows and the walls were neglected
 - The door between the toilet and the office room is open 
