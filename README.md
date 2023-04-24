@@ -11,10 +11,10 @@ Group members:
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 MODEL
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-*Apartament sizing
+(Apartament sizing)*
 
 
-*Boundary conditions
+(Boundary conditions)*
 
 - The thermal capacity of the windows, the convective heat transfer through the windows, as well as any radiant heat exchange between the walls themselves and between the windows and the walls were neglected
 - The door between the toilet and the office room is open 
