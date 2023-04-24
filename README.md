@@ -92,13 +92,13 @@ The following equations will then be used to solve the model:
 $e = -A\theta + b$\
 $q = Ge$\
 ```math
-$$C\theta’ = A^T*q + f$$\
+C\theta’ = A^T*q + f\
 ```
 ```math
-$$G^-1*q + A*\theta = b$$\
+G^-1*q + A*\theta = b\
 ```
 ```math
-$$-A^T*q + sC*\theta = f$$
+-A^T*q + sC*\theta = f
 ```
 
 
