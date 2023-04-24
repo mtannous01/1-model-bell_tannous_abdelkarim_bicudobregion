@@ -91,6 +91,6 @@ The following equations will then be used to solve the model:
 
 $e = -A\theta + b$\
 $q = Ge$
-$ C\theta’ = A^Tq + f $
+$ C*\theta’ = A^T*q + f $
 
 
