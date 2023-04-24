@@ -78,7 +78,7 @@ The incidence matrix, A, is a matrix that describes the topology of the network.
 
 - A_ij = -1, if edge j leaves node i
 - A_ij = 1, if edge j enters node i
-- A_ij = 0, otherwise\
+- A_ij = 0, otherwise
 
 The conductance matrix, G, is a diagonal matrix of size m x m (no. conductances square matrix), with the values on the diagonal being the sum of the conductances in that branch.
 
@@ -91,5 +91,6 @@ The following equations will then be used to solve the model:
 
 $e = -A\theta + b$\
 $q = Ge$
+$ C\theta’ = A^Tq + f $
 
 
