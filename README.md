@@ -62,7 +62,7 @@ From these values, the thermal conductances and capacities can be calculated.
 | ----- | ----- | 
 | Thermal conductance, conduction | $Gcond = \frac {1}{Rcond} = \frac {lambda*S}{w}$ |
 | Thermal conductance, convection | $conv=\frac{1}{Rconv}=hS$ |
-| Thermal conductance, radiation | $Grad=\frac{1}{Rrad}=hS where hr=sigma x epsilon (Ts-Te)(Ts^2+T2^2)$ |
+| Thermal conductance, radiation | $Grad=\frac{1}{Rrad}=hS$ where $hr=sigma x epsilon (Ts-Te)(Ts^2+T2^2)$ |
 | Thermal conductance, advection | $Gadv=\frac{rho*c*dv}{dt}$ |
 | Thermal capacity | $C=rho*c*w*S$ |
 
