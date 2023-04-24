@@ -58,11 +58,15 @@ Calculation of conductances and capacities
 From these values, the thermal conductances and capacities can be calculated.
 
 |Quantity |Equation|
+| ----- | ----- | 
 |Thermal conductance, conduction| Gcond = 1/Rcond =(lambda*S)/w|
 |hermal conductance, convection|conv=1/Rconv=hS|
 |thermal conductance, radiation|Grad=1/Rrad=hS where hr=sigma x epsilon (Ts-Te)(Ts^2+T2^2)|
 |Thermal conductance, advection| Gadv=rho*c*dv/dt|
-|Thermal capacity |C  ro*c*w*S|
+|Thermal capacity |C=rho*c*w*S|
+
+
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Matrices and inputs for the DAE model
