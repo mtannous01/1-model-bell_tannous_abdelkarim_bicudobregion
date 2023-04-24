@@ -49,9 +49,11 @@ Matrices and inputs for the DAE model
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Due to the number of nodes and branches, it was not feasible to manually write all the matrices, so instead a description of the structure of each matrix is given below.\
 The incidence matrix, A, is a matrix that describes the topology of the network. It has dimensions m x n, where m is the number of branches (conductances) in the network and n is the number of nodes (unknown temperatures). The elements of the matrix are given by:
+
 - A_ij = -1, if edge j leaves node i
 - A_ij = 1, if edge j enters node i
 - A_ij = 0, otherwise\
+
 The conductance matrix, G, is a diagonal matrix of size m x m (no. conductances square matrix), with the values on the diagonal being the sum of the conductances in that branch.\
 The capacity matrix, C, is a diagonal matrix of size n x n where the values are the capacities as calculated using the previously stated equation.
 The temperature source input is vector b, of length m, containing all the known temperatures.\
