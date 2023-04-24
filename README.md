@@ -23,3 +23,7 @@ Boundary conditions
 - This apartment is thermally isolated so there is no heat transfer through the floor or ceiling
 - The indoor air’s temperature is homogenous
 - The heat transfer is linear
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Choosing of materials
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
