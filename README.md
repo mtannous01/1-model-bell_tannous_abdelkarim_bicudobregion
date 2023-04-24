@@ -46,8 +46,8 @@ Thermal model
 Calculation of conductances and capacities
 
 | Material | Thickness(mm)   | Density (kg/m³) | Thermal conductivity (W/mK) | Specific heat(J/kgC) | Convection coefficient (W/m²K) |
-| Glass | 4 | 2500 | 1.05 | 840 | 15 |
 | ----- | ----- | ----- | ----- | ----- | ----- |
+| Glass | 4 | 2500 | 1.05 | 840 | 15 |
 | Air (20 C) | 12 | 1.204 | 0.025 | 1000 | 50 |
 | Concrete (external) | 350 | 2300 | 1.4 | 880 | 10 |
 | Concrete (internal) | 150 | 2300 | 1.4 | 880 | 10 |
