@@ -55,6 +55,17 @@ Calculation of conductances and capacities
 | Mineral fibre insulation | 150 | 20 | 0.035 | 1030 | 20 |
 | Wood (oak) | 40 | 750 |0.17 | 2380 | 10 |
 
+From these values, the thermal conductances and capacities can be calculated.
+
+|Quantity |Equation|
+|Thermal conductance, conduction| Gcond = 1/Rcond =(lambda*S)/w|
+|hermal conductance, convection|conv=1/Rconv=hS|
+|thermal conductance, radiation|Grad=1/Rrad=hS where hr=sigma x epsilon (Ts-Te)(Ts^2+T2^2)|
+|Thermal conductance, advection| Gadv=rho*c*dv/dt|
+|Thermal capacity |C  ro*c*w*S|
+
+
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Matrices and inputs for the DAE model
@@ -75,6 +86,4 @@ The temperature source input is vector b, of length m, containing all the known 
 Vector f is a vector of length n containing all the known flow rates at each node.
 
 The following equations will then be used to solve the model:
-
-\(E=mc^2\)，$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
 
