@@ -63,7 +63,7 @@ From these values, the thermal conductances and capacities can be calculated.
 | Thermal conductance, conduction | $Gcond = \frac {1}{Rcond} = \frac {\lambda \cdot S}{w}$ |
 | Thermal conductance, convection | $Gconv=\frac{1}{Rconv}=hS$ |
 | Thermal conductance, radiation | $Grad=\frac{1}{Rrad}=hS$ where $hr=\sigma \cdot \epsilon \cdot(Ts-Te) \cdot(Ts^2+T2^2)$ |
-| Thermal conductance, advection | $Gadv=\frac{\rho \cdot c \cdotdV$}{dt}$ |
+| Thermal conductance, advection | $Gadv=\frac{\rho \cdot c \cdot dV}{dt}$ |
 | Thermal capacity | $C=c\cdot w \cdot S \cdot \rho$ |
 
 
@@ -91,7 +91,7 @@ The following equations will then be used to solve the model:
 
 $e = -A\theta + b$\
 $q = Ge$\
-$C\theta’ = A^T*q + f$
+$C\theta’ = A^T \cdot q + f$
 
 
 
