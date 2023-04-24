@@ -4,7 +4,7 @@
 ###Dynamic Models for Building Energy Management
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Group members: \
-1.Tannous Maroun\
+1. Tannous Maroun\
 2. Bell Emily\
 3. Bicudo Bregion Beatriz\
 4. Abdelkarim Aya
@@ -13,8 +13,8 @@ Group members: \
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Apartment sizing
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-The apartment analyzed is in the following figure and contains 2 rooms, which are linked by a door. Each room contains a window and room 1 also contains a door.
-<img src="apartment.png">
+The apartment analyzed is in the following figure and contains 2 rooms, which are linked by a door. Each room contains a window and room 1 also contains a door.\
+<img src="apartment.png">\
 *Figure 1. Apartment analyzed*
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -31,10 +31,10 @@ The apartment analyzed is in the following figure and contains 2 rooms, which ar
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #Choosing of materials
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-- Window
+- Window\
  *Figure 2. Window material*
-- External wall
+- External wall\
 *Figure 3. External wall material*
-- Internal wall
+- Internal wall\
 *Figure 4. Internal wall material*
 
