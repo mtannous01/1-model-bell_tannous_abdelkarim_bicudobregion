@@ -45,7 +45,7 @@ Thermal model
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Calculation of conductances and capacities
 
-| ----- | ----- | ----- | ----- | ----- | ----- |
+
 | Material | Thickness(mm)   | Density (kg/m³) | Thermal conductivity (W/mK) | Specific heat(J/kgC) | Convection coefficient (W/m²K) |
 | ----- | ----- | ----- | ----- | ----- | ----- |
 | Glass | 4 | 2500 | 1.05 | 840 | 15 |
