@@ -31,6 +31,10 @@ Boundary conditions
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Choosing of materials
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-\begin{equation}
-e^x=\sum_{i=0}^\infty \frac{1}{i!}x^i
-\end{equation}
+- Window
+ *Figure 2. Window material*
+- External wall
+*Figure 3. External wall material*
+- Internal wall
+*Figure 4. Internal wall material*
+
