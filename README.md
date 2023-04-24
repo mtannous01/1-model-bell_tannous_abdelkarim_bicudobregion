@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Fh4jnCT2)
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Dynamic Models for Building Energy Management
+###Dynamic Models for Building Energy Management
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Group members: 
 1.Tannous Maroun
@@ -9,16 +9,16 @@ Group members:
 3. Bicudo Bregion Beatriz
 4. Abdelkarim Aya
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-MODEL
+##MODEL
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Apartment sizing
+#Apartment sizing
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The apartment analyzed is in the following figure and contains 2 rooms, which are linked by a door. Each room contains a window and room 1 also contains a door.
 <img src="apartment.png">
 *Figure 1. Apartment analyzed*
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Boundary conditions
+#Boundary conditions
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - The thermal capacity of the windows, the convective heat transfer through the windows, as well as any radiant heat exchange between the walls themselves and between the windows and the walls were neglected
 - The door between the toilet and the office room is open 
@@ -29,7 +29,7 @@ Boundary conditions
 - The heat transfer is linear
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Choosing of materials
+#Choosing of materials
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Window
  *Figure 2. Window material*
