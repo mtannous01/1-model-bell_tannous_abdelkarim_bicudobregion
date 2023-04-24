@@ -76,3 +76,5 @@ Vector f is a vector of length n containing all the known flow rates at each nod
 
 The following equations will then be used to solve the model:
 
+\(E=mc^2\)，$$x_{1,2} = \frac{-b \pm \sqrt{b^2-4ac}}{2b}.$$
+
