@@ -89,7 +89,7 @@ Vector f is a vector of length n containing all the known flow rates at each nod
 
 The following equations will then be used to solve the model:
 
-$e = -A\teta + b$
+$e = -A/teta + b$\
 $q = Ge$
 
 
