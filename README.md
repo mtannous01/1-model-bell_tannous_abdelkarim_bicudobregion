@@ -14,7 +14,7 @@ MODEL
 Apartment sizing
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 The apartment analyzed is in the following figure and contains 2 rooms, which are linked by a door. Each room contains a window and room 1 also contains a door.
->>>>>>>>>>>>put the figure here<<<<<<<<<<
+<img src="apartment.png">
 *Figure 1. Apartment analyzed*
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
