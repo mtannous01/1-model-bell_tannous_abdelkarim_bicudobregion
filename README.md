@@ -3,7 +3,7 @@
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 DYNAMIC MODELS FOR BUILDING ENERGY MANAGEMENT
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Group members: 
+Group members
 1. Tannous Maroun
 2. Bell Emily
 3. Bicudo Bregion Beatriz
@@ -66,9 +66,6 @@ From these values, the thermal conductances and capacities can be calculated.
 | Thermal conductance, advection | $Gadv= \rho \cdot c \frac{dV}{dt}$ |
 | Thermal capacity | $C=c\cdot w \cdot S \cdot \rho$ |
 
-
-
-
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Matrices and inputs for the DAE model
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -96,6 +93,9 @@ $G^-1 \cdot q + A\theta = b$\
 $-A^T \cdot q + sC\theta = f$\
 $C \cdot \theta’$ = $-A^TGA\theta$ + $A^TGb + f$
 
-
+\begin{bmatrix}
+1 & 2 & 3\\
+a & b & c
+\end{bmatrix}
 
 
