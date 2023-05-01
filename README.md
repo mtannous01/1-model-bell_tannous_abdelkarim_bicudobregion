@@ -13,10 +13,10 @@ MODEL
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Apartment sizing
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-The apartment analyzed is in the following figure and contains 2 rooms, which are linked by a door. Each room contains a window and room 1 also contains a door.\
+The apartment analyzed is in the following figure and contains 2 rooms, which are linked by a door. Each room contains a window and room 1 also contains a door.
 
 <img src="apartment.png" height = 250px width = 250px>
-*Figure 1. Apartment analyzed*
+*Figure 1. Apartment analyzed
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Boundary conditions
