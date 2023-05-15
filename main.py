@@ -49,6 +49,10 @@ A[23,15],A[23,10]=-1,1
 A[24,16], A[25,16],A[25,0]=1,-1,1
 
 #Divide by 2 everywhere
+#we have divided the app to two rooms: left room facing sun: upper wall-window+left wall=4.95+2.9+11=18.85
+#bottom wall of the left room not facing sun: 10.47
+#right room upper wall facing sun: 1.55+7.6-4.95=4.2
+# right room buildings no sun: 11+5.53=16.53
 G=np.zeros([26,26])
 G[0,0]=2*lambda_concrete*height*16.53/w_cocncrete_ex+h_concrete*height*16.53
 G[1,1]=lambda_concrete*height*10.47/w_cocncrete_ex+h_concrete*height*10.47
@@ -57,3 +61,8 @@ G[3,3]=lambda_insulation*height*10.47/w_insulation+h_insulation*height*10.47
 G[4,4]=h_concrete*height*18.85
 G[5,5]=lambda_concrete*height*18.85/w_cocncrete_ex
 G[6,6]=lambda_concrete*height*18.85/w_cocncrete_ex+lambda_insulation*height*18.85/w_insulation
+
+G[7,7]=lambda_concrete*height*18.85/w_cocncrete_ex
+G[8,8]=h_insulation*height*18.85
+
+G[9,9]=h_glass
